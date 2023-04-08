@@ -19,6 +19,7 @@ body{
     padding: 10px;
 
 }
+
 .navLinks{
     display: flex;
     color: black ;
@@ -75,3 +76,74 @@ body{
     color: white;
     transition: 0.5s ease;
 }
+
+@media  only screen and (max-width:500px) {
+
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .navber{
+        display: flex;
+        justify-content: space-around;
+        color: rgb(57, 183, 233);
+        font-size: 12px;
+        background-color: white;
+        padding: 10px;
+        align-items: center;
+    
+    }
+    
+    .navLinks{
+        display: flex;
+        color: black ;
+        list-style: none;
+    }
+    .navLinks li{
+        margin-left: 20px;
+        font-weight: bold;
+    
+    }
+    .navLinks li:hover{
+        color: rgb(57, 183, 233);
+        cursor: pointer;
+    }
+    .navLinks li:active{
+        color: green;
+        
+    }
+    .mainContainer{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid khaki; */
+        
+    }
+    .mainContainer h2{
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+    }
+    .centerdiv{
+        background-color: black;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px ;
+    }
+    .centerdiv span{
+        color: rgb(57, 183, 233);
+    }
+    .btn{
+        margin-top: 40px;
+        font-size: 15px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        background-color: transparent;
+    
+    }
+    
+  }
