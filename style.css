@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:   'Courier New', Courier, monospace;
+    color:    hsl(209, 61%, 16%);;
+    line-height: 1.5;
+    font-size: 0.875rem;
+    background-color: 	rgb(240, 248, 255);
+}
+.navber{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(57, 183, 233);
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+
+}
+.navLinks{
+    display: flex;
+    color: black ;
+    list-style: none;
+}
+.navLinks li{
+    margin-left: 20px;
+    font-weight: bold;
+
+}
+.navLinks li:hover{
+    color: rgb(57, 183, 233);
+    cursor: pointer;
+}
+.navLinks li:active{
+    color: green;
+    
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid khaki; */
+    height: 700px;
+    
+}
+.mainContainer h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.centerdiv{
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px ;
+}
+.centerdiv span{
+    color: rgb(57, 183, 233);
+}
+.btn{
+    margin-top: 40px;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    background-color: transparent;
+
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease;
+}
